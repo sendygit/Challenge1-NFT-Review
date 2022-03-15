@@ -20,7 +20,7 @@ body{
     background-color: hsl(216, 50%, 16%);
     width: 300px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 3%;
     filter: drop-shadow(0 0 24px rgba(0, 0, 0, 0.5));
 }
 
@@ -30,6 +30,7 @@ body{
 
 .image-wrapper:hover .overlay{
     display: flex;
+    transition: .7s;
 }
 
 .overlay {
@@ -52,10 +53,12 @@ body{
     color: white;
     font-weight: 600;
     padding: 16px 0;
+    cursor: pointer;
 }
 
 .content h1:hover{
     color: hsl(178, 100%, 50%);
+    transition: .5s;
 }
 
 .content {
@@ -114,8 +117,10 @@ body{
 
 .creator span{
     color: white;
+    cursor: pointer;
 }
 
 .creator span:hover {
     color: hsl(178, 100%, 50%);
+    transition: .5s;
 }
